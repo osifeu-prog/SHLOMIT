@@ -85,7 +85,7 @@
             flex-shrink: 0;
             z-index: 10;
         }
-          .chart-container {
+        .chart-container {
             position: relative; 
             width: 100%; 
             max-width: 600px; 
@@ -143,18 +143,16 @@
                                         ניתן להעביר ישירות דרך ארנק הטלגרם שלכם. העברה מתבצעת על רשת TON.
                                     </p>
                                     <div class="flex flex-col items-center">
-                                        <!-- Using the QR for the provided TON wallet address -->
-                                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=ton://transfer/UQCr743gEr_nqV_0SBkSp3CtYS_15R3LDLBvLmKeEv7XdGvp" 
-                                            alt="TON QR Code" 
-                                            class="rounded-lg shadow-md mb-2">
+                                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=ton://transfer/0x435B4d5e6D2Ea19474add911d92f77E8fac1Ac76" 
+                                             alt="TON QR Code" 
+                                             class="rounded-lg shadow-md mb-2">
                                         <div class="break-all text-xs text-gray-500 font-mono text-center">
-                                            UQCr743gEr_nqV_0SBkSp3CtYS_15R3LDLBvLmKeEv7XdGvp
+                                            0x435B4d5e6D2Ea19474add911d92f77E8fac1Ac76
                                         </div>
                                     </div>
                                 </div>
                                 <div class="p-3 bg-white rounded-lg shadow-sm">
                                     <h4 class="font-bold text-base mb-2">העברה בנקאית</h4>
-                                    <!-- Updated bank details -->
                                     <strong>שם מוטב:</strong> תנופה לחיים <br>
                                     <strong>בנק:</strong> מזרחי טפחות <br>
                                     <strong>סניף:</strong> 413 <br>
@@ -187,32 +185,26 @@
                     </div>
                 </div>
 
-                <!-- Unique Images Section -->
-                <div class="bg-gray-100 p-6 rounded-xl border border-gray-200 mt-10 card">
-                    <h2 class="text-2xl font-semibold mb-4 text-gray-700 text-center">התמונות הייחודיות שלכם!</h2>
-                    <p class="text-sm text-gray-600 mb-6 text-center max-w-lg mx-auto">
-                        לאחר אימות התשלום, הלקוחות שלכם יקבלו את התמונות הייחודיות שלהם יחד עם הבוט טוקן היחודי שלהם. ניתן להציג כאן דוגמאות של קלפי אספנות שתקבלו.
-                        <br>
-                        שימו לב: כל תמונה היא נכס דיגיטלי שניתן למכור ולסחור בו כדי להרוויח כסף כבר מהרכישה הראשונה!
+                <!-- New section for unique user images -->
+                <div class="card p-6 mt-8">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-700 text-center">גלריית תמונות ייחודיות לרכישה</h2>
+                    <p class="text-gray-600 mb-6 text-center max-w-2xl mx-auto">
+                        אלו הן התמונות הייחודיות שתוכלו לרכוש. לאחר אימות התשלום, הן יועברו לבעלותכם, ותוכלו למכור אותן ולהרוויח כסף מהרכישה הראשונה!
                     </p>
-                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                        <!-- Placeholder images simulating unique profile pictures -->
-                        <div class="flex flex-col items-center">
-                            <img src="https://placehold.co/150x150/A0AEC0/ffffff?text=Image+3" alt="Unique Image 3" class="rounded-xl shadow-md transition-transform duration-200 hover:scale-105 cursor-pointer">
-                            <span class="mt-2 text-xs text-gray-500">קלף בסיס</span>
-                        </div>
-                        <div class="flex flex-col items-center">
-                            <img src="https://placehold.co/150x150/A0AEC0/ffffff?text=Image+4" alt="Unique Image 4" class="rounded-xl shadow-md transition-transform duration-200 hover:scale-105 cursor-pointer">
-                            <span class="mt-2 text-xs text-gray-500">קלף נדיר</span>
-                        </div>
-                        <div class="flex flex-col items-center">
-                            <img src="https://placehold.co/150x150/A0AEC0/ffffff?text=Image+5" alt="Unique Image 5" class="rounded-xl shadow-md transition-transform duration-200 hover:scale-105 cursor-pointer">
-                            <span class="mt-2 text-xs text-gray-500">מהדורה מוגבלת</span>
-                        </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <img src="0533af5c-a0c8-4197-b797-662d1b154012.jpg" 
+                             alt="תמונה ייחודית 1" 
+                             class="w-full h-auto rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <img src="b4048d9a-0341-4b7b-84c8-509873947aba.jpg" 
+                             alt="תמונה ייחודית 2" 
+                             class="w-full h-auto rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <img src="c344fdcb-f0d0-4fd5-a29a-4b619ff6dfb3.jpg" 
+                             alt="תמונה ייחודית 3" 
+                             class="w-full h-auto rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
                     </div>
                 </div>
 
-                <!-- Contact Section with QR - Existing Section -->
+                <!-- Contact Section with QR - New Section -->
                 <div class="bg-indigo-50 p-6 rounded-xl border border-indigo-200 mb-8 text-center mt-8 card">
                     <h2 class="text-2xl font-semibold mb-4 text-gray-700">צור קשר</h2>
                     <p class="text-sm text-gray-600 mb-4 max-w-lg mx-auto">
@@ -220,14 +212,13 @@
                         <br>
                         <span class="font-bold text-indigo-700">ניתן לסרוק את קוד ה-QR כדי להגיע לארנק TON.</span>
                     </p>
-                    <!-- Using the provided TON QR Code from the previous prompt -->
-                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=ton://transfer/UQCr743gEr_nqV_0SBkSp3CtYS_15R3LDLBvLmKeEv7XdGvp" alt="TON QR Code" class="mx-auto rounded-lg shadow-md mb-4">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=ton://transfer/0x435B4d5e6D2Ea19474add911d92f77E8fac1Ac76" alt="TON QR Code" class="mx-auto rounded-lg shadow-md mb-4">
                     <ul class="text-gray-700 text-base">
-                        <li class="mb-2"><strong>אימייל:</strong> osif.e.u@gmail.com</li>
+                        <li class="mb-2"><strong>אימייל:</strong> 00506861837p@gmail.com</li>
                         <li><strong>טלפון:</strong> 0506861837</li>
                     </ul>
                 </div>
-            </section>
+            </section>osif.e.u@gmail.com
 
             <!-- Manager's View -->
             <section id="manager" class="content-section">
