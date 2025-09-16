@@ -143,20 +143,22 @@
                                         ניתן להעביר ישירות דרך ארנק הטלגרם שלכם. העברה מתבצעת על רשת TON.
                                     </p>
                                     <div class="flex flex-col items-center">
-                                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=ton://transfer/0x435B4d5e6D2Ea19474add911d92f77E8fac1Ac76" 
-                                             alt="TON QR Code" 
-                                             class="rounded-lg shadow-md mb-2">
+                                        <!-- Using the QR for the provided TON wallet address -->
+                                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=ton://transfer/UQCr743gEr_nqV_0SBkSp3CtYS_15R3LDLBvLmKeEv7XdGvp" 
+                                            alt="TON QR Code" 
+                                            class="rounded-lg shadow-md mb-2">
                                         <div class="break-all text-xs text-gray-500 font-mono text-center">
-                                            0x435B4d5e6D2Ea19474add911d92f77E8fac1Ac76
+                                            UQCr743gEr_nqV_0SBkSp3CtYS_15R3LDLBvLmKeEv7XdGvp
                                         </div>
                                     </div>
                                 </div>
                                 <div class="p-3 bg-white rounded-lg shadow-sm">
                                     <h4 class="font-bold text-base mb-2">העברה בנקאית</h4>
-                                    <strong>שם מוטב:</strong> אלעזר בלוי <br>
-                                    <strong>בנק:</strong> ONE ZERO (18) <br>
-                                    <strong>סניף:</strong> 001 <br>
-                                    <strong>חשבון:</strong> 215875698
+                                    <!-- Updated bank details -->
+                                    <strong>שם מוטב:</strong> תנופה לחיים <br>
+                                    <strong>בנק:</strong> מזרחי טפחות <br>
+                                    <strong>סניף:</strong> 413 <br>
+                                    <strong>חשבון:</strong> 227211
                                 </div>
                             </div>
                         </div>
@@ -185,7 +187,32 @@
                     </div>
                 </div>
 
-                <!-- Contact Section with QR - New Section -->
+                <!-- Unique Images Section -->
+                <div class="bg-gray-100 p-6 rounded-xl border border-gray-200 mt-10 card">
+                    <h2 class="text-2xl font-semibold mb-4 text-gray-700 text-center">התמונות הייחודיות שלכם!</h2>
+                    <p class="text-sm text-gray-600 mb-6 text-center max-w-lg mx-auto">
+                        לאחר אימות התשלום, הלקוחות שלכם יקבלו את התמונות הייחודיות שלהם יחד עם הבוט טוקן היחודי שלהם. ניתן להציג כאן דוגמאות של קלפי אספנות שתקבלו.
+                        <br>
+                        שימו לב: כל תמונה היא נכס דיגיטלי שניתן למכור ולסחור בו כדי להרוויח כסף כבר מהרכישה הראשונה!
+                    </p>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                        <!-- Placeholder images simulating unique profile pictures -->
+                        <div class="flex flex-col items-center">
+                            <img src="https://placehold.co/150x150/A0AEC0/ffffff?text=Image+3" alt="Unique Image 3" class="rounded-xl shadow-md transition-transform duration-200 hover:scale-105 cursor-pointer">
+                            <span class="mt-2 text-xs text-gray-500">קלף בסיס</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="https://placehold.co/150x150/A0AEC0/ffffff?text=Image+4" alt="Unique Image 4" class="rounded-xl shadow-md transition-transform duration-200 hover:scale-105 cursor-pointer">
+                            <span class="mt-2 text-xs text-gray-500">קלף נדיר</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="https://placehold.co/150x150/A0AEC0/ffffff?text=Image+5" alt="Unique Image 5" class="rounded-xl shadow-md transition-transform duration-200 hover:scale-105 cursor-pointer">
+                            <span class="mt-2 text-xs text-gray-500">מהדורה מוגבלת</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Section with QR - Existing Section -->
                 <div class="bg-indigo-50 p-6 rounded-xl border border-indigo-200 mb-8 text-center mt-8 card">
                     <h2 class="text-2xl font-semibold mb-4 text-gray-700">צור קשר</h2>
                     <p class="text-sm text-gray-600 mb-4 max-w-lg mx-auto">
@@ -193,13 +220,14 @@
                         <br>
                         <span class="font-bold text-indigo-700">ניתן לסרוק את קוד ה-QR כדי להגיע לארנק TON.</span>
                     </p>
-                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=ton://transfer/0x435B4d5e6D2Ea19474add911d92f77E8fac1Ac76" alt="TON QR Code" class="mx-auto rounded-lg shadow-md mb-4">
+                    <!-- Using the provided TON QR Code from the previous prompt -->
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=ton://transfer/UQCr743gEr_nqV_0SBkSp3CtYS_15R3LDLBvLmKeEv7XdGvp" alt="TON QR Code" class="mx-auto rounded-lg shadow-md mb-4">
                     <ul class="text-gray-700 text-base">
-                        <li class="mb-2"><strong>אימייל:</strong> 00506861837p@gmail.com</li>
+                        <li class="mb-2"><strong>אימייל:</strong> osif.e.u@gmail.com</li>
                         <li><strong>טלפון:</strong> 0506861837</li>
                     </ul>
                 </div>
-            </section>osif.e.u@gmail.com
+            </section>
 
             <!-- Manager's View -->
             <section id="manager" class="content-section">
